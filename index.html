@@ -25,7 +25,11 @@
     margin: 20px;
   }
 
-  header img { height: 60px; }
+  /* 로고 크기 조절 */
+  header img {
+    height: 60px;
+  }
+
   header h1 { margin: 0; font-size: 2em; font-weight: bold; }
 
   .grid {
@@ -80,7 +84,12 @@
 <body>
 
 <header>
+  <!-- 로고가 루트에 있을 경우 -->
   <img src="logo.png" alt="동진토건 로고">
+
+  <!-- 로고가 images 폴더 안에 있을 경우 (사용시 경로 바꾸기) -->
+  <!-- <img src="images/logo.png" alt="동진토건 로고"> -->
+
   <h1>동진안전 포털</h1>
 </header>
 
