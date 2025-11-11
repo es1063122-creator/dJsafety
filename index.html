@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>동진안전 포털</title>
+  <style>
+    body {
+      font-family: "맑은 고딕", sans-serif;
+      background: #f4f6f8;
+      text-align: center;
+      margin: 0;
+      padding: 40px;
+    }
+    h1 { color: #0d6efd; margin-bottom: 40px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+      transition: 0.3s;
+      text-decoration: none;
+      color: black;
+    }
+    .card:hover { transform: translateY(-5px); box-shadow: 0 6px 12px rgba(0,0,0,0.15); }
+    .card h2 { color: #0d6efd; }
+  </style>
+</head>
+<body>
+  <h1>🏗️ 동진안전 포털</h1>
+  <div class="grid">
+    <a class="card" href="https://es1063122-creator.github.io/dongjin-safety/smart-check.html">
+      <h2>스마트 안전점검</h2>
+      <p>현장별 점검사항을 AI로 관리</p>
+    </a>
+    <a class="card" href="https://es1063122-creator.github.io/dongjin-safety/daily-log.html">
+      <h2>안전점검일지</h2>
+      <p>일일 점검 및 조치사항 기록</p>
+    </a>
+    <a class="card" href="https://es1063122-creator.github.io/dongjin-safety/supervisor.html">
+      <h2>관리감독자 점검</h2>
+      <p>관리감독자별 점검사항 관리</p>
+    </a>
+    <a class="card" href="https://es1063122-creator.github.io/dongjin-safety/machine-check.html">
+      <h2>건설기계 점검</h2>
+      <p>장비별 안전점검 내역 관리</p>
+    </a>
+    <a class="card" href="https://es1063122-creator.github.io/dongjin-safety/quiz.html">
+      <h2>관리감독자 퀴즈</h2>
+      <p>안전지식 퀴즈로 역량 강화</p>
+    </a>
+  </div>
+</body>
+</html>
